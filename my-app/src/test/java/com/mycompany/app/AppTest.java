@@ -22,9 +22,7 @@ public class AppTest
     @Test
     public void testSetenceCleanUp()
     {
-        // System.out.println("Test One");
-        // CleanUp tester = new cleanUp();
-        //assertEquals(0, tester.multiply(10, 0), "10 x 0 must be 0");
-
+        System.out.println("Test One");
+    
     }
 }
