@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - getDifferences",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.getDifferences"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - getDifferences",
+            "request": "launch",
+            "mainClass": "getDifferences"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "test"
+        }
+    ]
+}
