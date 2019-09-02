@@ -11,11 +11,11 @@ public class getDifferences{
         Scanner scanObj = new Scanner(System.in);
         System.out.println("Enter First Sentence: ");
         while((str1 = scanObj.nextLine()).isEmpty()) {
-            System.out.print("Enter First Sentence: ");
+            System.out.print("Empty Line - Enter 1st Sentence: ");
           }
           System.out.println("Enter Second Sentence: ");
           while((str2 = scanObj.nextLine()).isEmpty()) {
-              System.out.print("Enter Second Sentence: ");
+              System.out.print("Empty Line - Enter 2nd Sentence:");
             }
         scanObj.close();
         
