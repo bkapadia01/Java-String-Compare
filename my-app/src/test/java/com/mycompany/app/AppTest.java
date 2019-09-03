@@ -88,6 +88,7 @@ public class AppTest
         ArrayList<String> sentence1 = new ArrayList<String>();
         sentence1.add("first");
         sentence1.add("sentence");
+        sentence1.add("sentence");
 
         ArrayList<String> sentence2 = new ArrayList<String>();
         sentence2.add("first");
@@ -127,13 +128,9 @@ public class AppTest
         sentence2.add("sentence");
 
         ArrayList<String> expected = new ArrayList<String>();
-        sentence2.add("sentence");
+        expected.add("sentence");
 
         sentence2.removeAll(sentence1);
         assertThat(sentence2, is(expected));
     }
-
-
-
-
 }
