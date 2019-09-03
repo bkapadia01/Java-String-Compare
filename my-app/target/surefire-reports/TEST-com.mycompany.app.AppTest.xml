@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.069" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.249" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/Bhavin/Desktop/lpthw/Kira_codetest/my-app/target/surefire/surefirebooter8350932659269364050.jar /Users/Bhavin/Desktop/lpthw/Kira_codetest/my-app/target/surefire 2019-09-01T15-56-58_579-jvmRun1 surefire8072422637826580944tmp surefire_06907384471565653471tmp"/>
+    <property name="sun.java.command" value="/Users/Bhavin/Desktop/lpthw/Kira_codetest/my-app/target/surefire/surefirebooter6959180577758211311.jar /Users/Bhavin/Desktop/lpthw/Kira_codetest/my-app/target/surefire 2019-09-03T19-06-48_792-jvmRun1 surefire5013860025287196329tmp surefire_014351161039540964773tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/Bhavin/Desktop/lpthw/Kira_codetest/my-app/target/test-classes:/Users/Bhavin/Desktop/lpthw/Kira_codetest/my-app/target/classes:/Users/Bhavin/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/Bhavin/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -33,13 +33,13 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/Bhavin/Desktop/lpthw/Kira_codetest/my-app/target/surefire/surefirebooter8350932659269364050.jar"/>
+    <property name="surefire.real.class.path" value="/Users/Bhavin/Desktop/lpthw/Kira_codetest/my-app/target/surefire/surefirebooter6959180577758211311.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.2+9-LTS"/>
     <property name="user.name" value="Bhavin"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="10.14.5"/>
+    <property name="os.version" value="10.14.6"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
@@ -61,6 +61,12 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.mycompany.app.AppTest" time="0.002"/>
-  <testcase name="testSetenceCleanUp" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.mycompany.app.AppTest" time="0.011"/>
+  <testcase name="shouldAnswerWithFalse" classname="com.mycompany.app.AppTest" time="0.063"/>
+  <testcase name="listDifferenceIsSame" classname="com.mycompany.app.AppTest" time="0.021"/>
+  <testcase name="listDiffernceIsNotExpected" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="listDifferenceIsAsExpected" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="listDifferenceIsEmpty" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="listDiffernceMatchesExpected" classname="com.mycompany.app.AppTest" time="0"/>
+  <testcase name="emptyStringAreTheSame" classname="com.mycompany.app.AppTest" time="0.009"/>
 </testsuite>
