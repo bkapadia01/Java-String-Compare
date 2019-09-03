@@ -3,6 +3,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
 
+//Refer to App.java for code with test - use this only if you're having trouble running the Java app.
 
 public class getDifferences{
     public static void main(String[] args){
@@ -26,16 +27,19 @@ public class getDifferences{
             i++;
         }
 
-        ArrayList<String> sentence = CheckDiff(arr);
+        ArrayList<String> sentence = checkDiff(arr);
+        String[] arrs = {"tes", " one"};
+        System.out.println(arrs[0]);
+        
     }
 
-    private static ArrayList<String> CheckDiff(String arr[]) {
+    private static ArrayList<String> checkDiff(String arr[]) {
         if (arr[0].equalsIgnoreCase(arr[1])){
             System.out.println("The 2 sentences are the same");
         } else {
-            ArrayList<String> sentence1 = new ArrayList<>(Arrays.asList(arr[0].split("\\s+")));
+            ArrayList<String> sentence1 = new ArrayList<>(Arrays.asList(arr[0].toLowerCase().split("\\s+")));
             //System.out.println(sentence1);
-            ArrayList<String> sentence2 = new ArrayList<>(Arrays.asList(arr[1].split("\\s+")));
+            ArrayList<String> sentence2 = new ArrayList<>(Arrays.asList(arr[1].toLowerCase().split("\\s+")));
             //System.out.println(sentence2);
             System.out.println("The  2 sentences are the different");
             sentence2.removeAll(sentence1);
