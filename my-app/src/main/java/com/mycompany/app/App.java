@@ -2,9 +2,7 @@ package com.mycompany.app;
 
 //import com.sun.tools.javac.util.StringUtils;
 import java.util.Scanner;
-import java.util.Scanner;
 import java.util.Arrays;
-import java.util.List;
 import java.util.ArrayList;
 
 public class App{
@@ -29,6 +27,10 @@ public class App{
             i++;
         }
 
+        ArrayList<String> sentence = CheckDiff(arr);
+    }
+
+    private static ArrayList<String> CheckDiff(String arr[]) {
         if (arr[0].equalsIgnoreCase(arr[1])){
             System.out.println("The 2 sentences are the same");
         } else {
@@ -40,6 +42,7 @@ public class App{
             sentence2.removeAll(sentence1);
             System.out.println("The list of words that are different in Sentence 1 compared to Sentence 2 are:\n\t" + sentence2);
         }
+        return null;
     }
 
     public static String[] cleanUp(String str1, String str2) {
