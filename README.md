@@ -37,6 +37,7 @@ cd to `my-app/`
 run `mvn package`- *the app should build the application and run all the tests*
 
 **To run the application:** `java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App` 
+
 **To run test:** `mvn test`
 
 ## Running application without Maven
