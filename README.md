@@ -13,26 +13,37 @@ Return: `2, second`
 This is because - between the 2 sentences all the words are the same except for the words *2* and *sentence* 
 
 ## Instructions to run the app
-
 Enviroment Requirements:
+
 MacOS
+
 Apache Maven 3.6.1 
+
 Java version: 11.0.2
+
 Homebrew 2.1.11
 
+
 set Java path: `export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home`
+
 Maven: `brew install maven`
 
 Confirm packages are installed and your environment is setup:
 
 Clone this repository.
+
 cd to `my-app/`
+
 run `mvn package`- *the app should build the application and run all the tests*
+
 To run application: `java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App` to run the application
-To run test: 'mvn test'
+
+To run test: `mvn test`
 
 ## Running application without Maven
 cd to root project folder `Kira_codetest/`
+
 To build application `javac getDifferences.java`
+
 To run application `java getDifferences `
 
